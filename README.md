@@ -3,6 +3,8 @@ and babel-loader.
 
 ## The problem
 
+When initial rendering kicks off in a `Promise` callback the error stack and location are lost. The stack and location are correct when using `transform-loader?babelify` with exact same code. 
+
 In order to reproduce clone this repo, navigate to the local clone in terminal
 and run
 
