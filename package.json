@@ -1,0 +1,25 @@
+{
+  "name": "babel-loader-issue",
+  "version": "1.0.0",
+  "description": "Smallest example of the issue with babel-loader and source maps",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Misha Reyzlin",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^5.8.25",
+    "babel-loader": "^5.3.2",
+    "babel-runtime": "^5.8.25",
+    "babelify": "^6.3.0",
+    "file-loader": "^0.8.4",
+    "transform-loader": "^0.2.3",
+    "webpack": "^1.12.2",
+    "webpack-dev-server": "^1.12.0"
+  },
+  "dependencies": {
+    "react": "^0.13.3",
+    "react-router": "^1.0.0-rc1"
+  }
+}
