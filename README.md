@@ -5,6 +5,29 @@ and babel-loader.
 
 When initial rendering kicks off in a `Promise` callback the error stack and location are lost. The stack and location are correct when using `transform-loader?babelify` with exact same code. 
 
+#### Environment
+
+```json
+"devDependencies": {
+  "babel-core": "^5.8.25",
+  "babel-loader": "^5.3.2",
+  "babel-runtime": "^5.8.25",
+  "babelify": "^6.3.0",
+  "file-loader": "^0.8.4",
+  "transform-loader": "^0.2.3",
+  "webpack": "^1.12.2",
+  "webpack-dev-server": "^1.12.0"
+},
+"dependencies": {
+  "react": "^0.13.3",
+  "react-router": "^1.0.0-rc1"
+}
+```
+
+We tested in Chrome 45.0.2454.101 (64-bit) and Chrome 47.0.2523.0 canary (64-bit).
+
+#### Reproduce
+
 In order to reproduce clone this repo, navigate to the local clone in terminal
 and run
 
